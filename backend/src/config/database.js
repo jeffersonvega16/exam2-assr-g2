@@ -4,7 +4,7 @@ const dbConnection = mysql.createConnection({
     //Con variables de entorno
     host     : 'localhost',
     user     : 'root',
-    password : '',
+    password : 'root',
     database : 'covid19'
 });
 
